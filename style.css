@@ -1,0 +1,44 @@
+.container {
+  width: 400px;
+  margin-top: 60px;
+}
+.quote {
+  background-color: #00BFFF;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+}
+.name {
+  background-color: #333;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.quote::after {
+  border-color: transparent #00BFFF transparent transparent;
+  border-image: none;
+  border-style: solid;
+  border-width: 20px;
+  top: 40px;
+  content: " ";
+  display: block;
+  right: 75%;
+  position: relative;
+}
+#next-quote-button {
+  background-color: #00BFFF;
+  color: white;
+}
+#tweet {
+  color: white;
+  background-color: #333;
+}
+.btn {
+  margin-bottom: 70px;
+}
